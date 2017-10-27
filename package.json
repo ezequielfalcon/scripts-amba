@@ -1,0 +1,7 @@
+{
+  "name": "scripts-amba",
+  "version": "0.0.1",
+  "dependencies": {
+    "pg-promise": "^7.0.2"
+  }
+}
