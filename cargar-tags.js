@@ -12,7 +12,7 @@ const db = pgp(process.env.DATABASE_URL || cn);
 
 
 for (let i = 0; i < (800); i++){
-    db.none('insert into tags (cod, uid) VALUES ($1, $2);', [i + 990001, (i + 990001) + '000000000000000000'])
+    db.none('insert into tags (cod, uid) VALUES ($1, $2);', [i + 990001, (i + 990001) + '0000000000000000000'])
         .then(() => {
             console.log('Insertado ' + (i + 990001));
         })
